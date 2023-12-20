@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1350px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #2b3c53;
+    color: white;
+    z-index: 1;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.link ul li {
+    display: inline-block;
+    font-size: 1.3rem;
+    padding: 0 15px;
+
+}
+
+.link ul li a {
+    color: white;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo {
+    width: 100px;
+}
+
+.icon i {
+    padding: 0 12px;
+    font-size: 1.5rem;
+}
+
+.row {
+    display: flex;
+}
+
+.jcs {
+    justify-content: space-between;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.alc {
+    align-items: center;
+}
+
+.po-rel {
+    position: relative;
+}
+
+.po-ab {
+    position: absolute;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.col-45 {
+    width: 45%;
+}
+
+.col-33 {
+    width: 33%;
+}
+
+.col-35 {
+    width: 35%;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+
+
+.txt-align {
+    text-align: center;
+}
+
+.one-txt h1 {
+    font-size: 3rem;
+}
+
+.one-t h3 {
+    font-size: 1.9rem;
+    padding: 1rem 0;
+}
+
+.pra p {
+    font-size: 1.5rem;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+
+.btn button {
+    font-size: 1.2rem;
+    padding: 5px 30px;
+    margin: 20px 0;
+    border-radius: 25px;
+    background-color: #2b3c53;
+    color: white;
+}
+
+.banner {
+    color: #2b3c53;
+    padding: 9rem 0;
+    overflow: hidden;
+}
+
+.one-main-img img,
+.one-main-img-2 img,
+.two-main-1 img {
+    width: 100%;
+}
+
+.section-2 {
+    color: white;
+    background-color: #5e9a62;
+}
+
+.sec-two {
+    padding: 3.5rem 0;
+
+}
+
+.two-img img {
+    width: 100%;
+}
+
+.one-main-img {
+    top: -243px;
+    left: -243px;
+}
+
+.one-main-img-2 {
+    right: -246px;
+    bottom: -126px
+}
+
+
+.two-head h2 {
+    font-size: 4rem;
+}
+
+.two-pra p {
+    font-size: 1.7rem;
+    padding: 1rem 0;
+}
+
+.two-btn button {
+    font-size: 1.8rem;
+    padding: 5px 40px;
+    border-radius: 25px;
+    background-color: white;
+    color: #5e9a62;
+    border: none;
+}
+
+.two-main-img img {
+    margin-left: 52.6em;
+    margin-bottom: -4px;
+}
+
+.three-img img {
+    width: 100%;
+}
+
+.sec-three {
+    padding: 3rem 0;
+}
+
+.three-text h2 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 1rem 0;
+    color: #2b3c53;
+}
+
+.section-3 {
+    z-index: 2;
+    background-color: white;
+}
+
+.three-btn {
+    text-align: center;
+}
+
+.three-btn button {
+    background-color: #2b3c53;
+    font-size: 2rem;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 25px;
+    border: none;
+    margin: 0 30px;
+
+}
+
+.three-padd {
+    padding: 3rem 0;
+}
+
+.section-4 {
+    background-color: #5e9a62;
+    color: white;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.four-img img {
+    margin-left: 505px;
+    margin-top: -8px;
+
+
+}
+
+.four-head h2 {
+    font-size: 3rem;
+}
+
+.four-pra p {
+    font-size: 1.5rem;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.four-btn button {
+    font-size: 1.8rem;
+    padding: 5px 40px;
+    border-radius: 25px;
+    background-color: white;
+    color: #5e9a62;
+    border: none;
+}
+
+.four-padd {
+    padding: 80px 0;
+}
+
+.four-main img {
+    margin-left: -8px;
+    margin-bottom: -11px;
+}
+
+.five-main-img img,
+.six-img {
+    width: 100%;
+
+}
+
+.sec-five {
+    padding: 4rem 0;
+}
+
+
+.section-5 {
+    background-color: #2b3c53;
+    color: white;
+}
+
+.five-head h2 {
+    font-size: 4rem;
+    padding-bottom: 30px;
+}
+
+.five-pra p {
+    font-size: 2rem;
+    padding: 10px 0;
+}
+
+.five-con p {
+    font-size: 2rem;
+
+}
+
+.five-padd {
+    padding: 30px 0;
+}
+
+.five-don h4 {
+    font-size: 2rem;
+
+}
+
+.six-pra p {
+    font-size: 2rem;
+    color: #2b3c53;
+}
+
+.six-btn button {
+    font-size: 1.2rem;
+    padding: 5px 30px;
+    margin: 20px 0;
+    border-radius: 25px;
+    background-color: #2b3c53;
+    color: white;
+}
+
+.sec-six {
+    padding: 50px 0;
+}
+
+
+.six-txt h2 {
+    font-size: 3rem;
+    color: #2b3c53;
+    padding: 20px 0;
+}
+
+.six-icon {
+    top: 30%;
+    right: 50%;
+}
+
+.footer {
+    background-color: #2b3c53;
+    color: white;
+}
+
+.f-main {
+    padding: 5rem 0;
+}
+
+.f-head h2 {
+    font-size: 2.5rem;
+}
+
+.f-pra p {
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
+
+
+.f-icon i {
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 50%;
+    color: #2b3c53;
+    padding: 10px;
+    margin-right: 10px;
+
+}
+
+.f-links ul li {
+    font-size: 1.5rem;
+    padding: 5px 0;
+}
+
+.f-links {
+    padding: 10px 0;
+}
+
+.f-links ul li a {
+    color: white;
+}
